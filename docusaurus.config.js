@@ -222,204 +222,204 @@ const config = {
           srcDark: 'img/ton_logo_dark_background.svg',
         },
         items: [
-          {
-            type: 'dropdown',
-            to: '/learn/introduction',
-            position: 'left',
-            label: 'Concepts',
-            items: [
-              {
-                to: '/learn/introduction',
-                label: 'Introduction to TON',
-              },
-              {
-                to: '/learn/overviews/ton-blockchain',
-                label: 'Blockchain of Blockchains',
-              },
-              {
-                to: '/learn/overviews/addresses',
-                label: 'Smart Contract Addresses',
-              },
-              {
-                to: '/learn/overviews/cells',
-                label: 'Cells as a Data Structure',
-              },
-              {
-                to: '/learn/networking/overview',
-                label: 'TON Networking',
-              },
-              {
-                to: '/learn/docs',
-                label: 'Whitepapers',
-              },
+          // {
+          //   type: 'dropdown',
+          //   to: '/learn/introduction',
+          //   position: 'left',
+          //   label: 'Concepts',
+          //   items: [
+          //     {
+          //       to: '/learn/introduction',
+          //       label: 'Introduction to TON',
+          //     },
+          //     {
+          //       to: '/learn/overviews/ton-blockchain',
+          //       label: 'Blockchain of Blockchains',
+          //     },
+          //     {
+          //       to: '/learn/overviews/addresses',
+          //       label: 'Smart Contract Addresses',
+          //     },
+          //     {
+          //       to: '/learn/overviews/cells',
+          //       label: 'Cells as a Data Structure',
+          //     },
+          //     {
+          //       to: '/learn/networking/overview',
+          //       label: 'TON Networking',
+          //     },
+          //     {
+          //       to: '/learn/docs',
+          //       label: 'Whitepapers',
+          //     },
 
-            ],
-          },
-          {
-            type: 'dropdown',
-            to: '/develop/overview',
-            position: 'left',
-            label: 'Get Started',
-            items: [
-              {
-                to: '/develop/overview',
-                label: 'Start with Onboarding Tutorials',
-              },
-              {
-                to: '/develop/dapps/tutorials/jetton-minter',
-                label: 'Mint your Tokens',
-              },
-              {
-                to: '/develop/dapps/tutorials/collection-minting',
-                label: 'Mint your NFTs',
-              },
-              {
-                to: '/develop/dapps/telegram-apps/',
-                label: 'Build your first Mini App',
-              },
-              {
-                to: '/develop/dapps',
-                label: 'Dive into DApps Development',
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            to: 'develop/dapps',
-            position: 'left',
-            label: 'DApps',
-            items: [
-              {
-                to: 'develop/dapps/apis/sdk',
-                label: 'APIs and SDKs',
-              },
-              {
-                to: 'develop/dapps/asset-processing',
-                label: 'Asset Processing',
-              },
-              {
-                to: 'develop/dapps/asset-processing/jettons',
-                label: 'Jetton Processing',
-              },
-              {
-                to: '/develop/dapps/cookbook',
-                label: 'Cookbook',
-              },
-              {
-                to: '/develop/dapps/telegram-apps/',
-                label: 'TMA Development',
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            to: 'develop/overview',
-            position: 'left',
-            label: 'Smart Contracts',
-            items: [
-              {
-                to: '/develop/smart-contracts/tutorials/wallet',
-                label: 'Understanding Wallets',
-              },
-              {
-                to: 'develop/smart-contracts',
-                label: 'Write Smart Contracts',
-              },
-              {
-                to: '/develop/smart-contracts/messages',
-                label: 'Sending Messages',
-              },
-              {
-                to: 'develop/smart-contracts/fees',
-                label: 'Transaction Fees',
-              },
-              {
-                to: 'develop/smart-contracts/guidelines',
-                label: 'Best Practices for Contracts',
-              },
-              {
-                to: 'develop/func/overview',
-                label: 'FunC Development Language',
-              },
-              {
-                to: 'develop/func/cookbook',
-                label: 'FunC Cookbook',
-              },
-              {
-                to: '/develop/data-formats/cell-boc',
-                label: 'Data formats',
-              },
-              {
-                to: 'learn/tvm-instructions/tvm-overview',
-                label: 'TON Virtual Machine (TVM)',
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            to: 'participate',
-            position: 'left',
-            label: 'Nodes',
-            items: [
-              {
-                to: 'participate/nodes/node-types',
-                label: 'Node Types',
-              },
-              {
-                to: 'https://ton.org/validator',
-                label: 'Become a Validator',
-              },
-              {
-                to: 'participate/run-nodes/full-node',
-                label: 'Run a Full Node',
-              },
-              {
-                to: 'https://docs.ton.org/participate/run-nodes/full-node#enable-liteserver-mode',
-                label: 'Enable Liteserver',
-              },
-              {
-                to: 'participate/run-nodes/archive-node',
-                label: 'Run an Archive Node',
-              },
-              {
-                to: '/participate/network-maintenance/single-nominator',
-                label: 'Single Nominator Pool',
-              },
+          //   ],
+          // },
+          // {
+          //   type: 'dropdown',
+          //   to: '/develop/overview',
+          //   position: 'left',
+          //   label: 'Get Started',
+          //   items: [
+          //     {
+          //       to: '/develop/overview',
+          //       label: 'Start with Onboarding Tutorials',
+          //     },
+          //     {
+          //       to: '/develop/dapps/tutorials/jetton-minter',
+          //       label: 'Mint your Tokens',
+          //     },
+          //     {
+          //       to: '/develop/dapps/tutorials/collection-minting',
+          //       label: 'Mint your NFTs',
+          //     },
+          //     {
+          //       to: '/develop/dapps/telegram-apps/',
+          //       label: 'Build your first Mini App',
+          //     },
+          //     {
+          //       to: '/develop/dapps',
+          //       label: 'Dive into DApps Development',
+          //     },
+          //   ],
+          // },
+          // {
+          //   type: 'dropdown',
+          //   to: 'develop/dapps',
+          //   position: 'left',
+          //   label: 'DApps',
+          //   items: [
+          //     {
+          //       to: 'develop/dapps/apis/sdk',
+          //       label: 'APIs and SDKs',
+          //     },
+          //     {
+          //       to: 'develop/dapps/asset-processing',
+          //       label: 'Asset Processing',
+          //     },
+          //     {
+          //       to: 'develop/dapps/asset-processing/jettons',
+          //       label: 'Jetton Processing',
+          //     },
+          //     {
+          //       to: '/develop/dapps/cookbook',
+          //       label: 'Cookbook',
+          //     },
+          //     {
+          //       to: '/develop/dapps/telegram-apps/',
+          //       label: 'TMA Development',
+          //     },
+          //   ],
+          // },
+          // {
+          //   type: 'dropdown',
+          //   to: 'develop/overview',
+          //   position: 'left',
+          //   label: 'Smart Contracts',
+          //   items: [
+          //     {
+          //       to: '/develop/smart-contracts/tutorials/wallet',
+          //       label: 'Understanding Wallets',
+          //     },
+          //     {
+          //       to: 'develop/smart-contracts',
+          //       label: 'Write Smart Contracts',
+          //     },
+          //     {
+          //       to: '/develop/smart-contracts/messages',
+          //       label: 'Sending Messages',
+          //     },
+          //     {
+          //       to: 'develop/smart-contracts/fees',
+          //       label: 'Transaction Fees',
+          //     },
+          //     {
+          //       to: 'develop/smart-contracts/guidelines',
+          //       label: 'Best Practices for Contracts',
+          //     },
+          //     {
+          //       to: 'develop/func/overview',
+          //       label: 'FunC Development Language',
+          //     },
+          //     {
+          //       to: 'develop/func/cookbook',
+          //       label: 'FunC Cookbook',
+          //     },
+          //     {
+          //       to: '/develop/data-formats/cell-boc',
+          //       label: 'Data formats',
+          //     },
+          //     {
+          //       to: 'learn/tvm-instructions/tvm-overview',
+          //       label: 'TON Virtual Machine (TVM)',
+          //     },
+          //   ],
+          // },
+          // {
+          //   type: 'dropdown',
+          //   to: 'participate',
+          //   position: 'left',
+          //   label: 'Nodes',
+          //   items: [
+          //     {
+          //       to: 'participate/nodes/node-types',
+          //       label: 'Node Types',
+          //     },
+          //     {
+          //       to: 'https://ton.org/validator',
+          //       label: 'Become a Validator',
+          //     },
+          //     {
+          //       to: 'participate/run-nodes/full-node',
+          //       label: 'Run a Full Node',
+          //     },
+          //     {
+          //       to: 'https://docs.ton.org/participate/run-nodes/full-node#enable-liteserver-mode',
+          //       label: 'Enable Liteserver',
+          //     },
+          //     {
+          //       to: 'participate/run-nodes/archive-node',
+          //       label: 'Run an Archive Node',
+          //     },
+          //     {
+          //       to: '/participate/network-maintenance/single-nominator',
+          //       label: 'Single Nominator Pool',
+          //     },
 
-              {
-                to: '/participate/network-maintenance/vesting-contract',
-                label: 'Vesting Contract',
-              },
-            ],
-          },
-          {
-            type: 'dropdown',
-            to: 'participate',
-            position: 'left',
-            label: 'Web3',
-            items: [
-              {
-                to: 'participate/web3/dns',
-                label: 'TON DNS & Domains',
-              },
-              {
-                to: 'participate/web3/how-to-open-any-ton-site',
-                label: 'Open TON Sites',
-              },
-              {
-                to: 'develop/dapps/tutorials/how-to-run-ton-site',
-                label: 'Run TON Sites',
-              },
-              {
-                to: 'participate/ton-storage/storage-daemon',
-                label: 'Run a Storage Daemon',
-              },
-              {
-                to: 'participate/ton-storage/storage-provider',
-                label: 'Build a Storage Provider',
-              },
-            ],
-          },
+          //     {
+          //       to: '/participate/network-maintenance/vesting-contract',
+          //       label: 'Vesting Contract',
+          //     },
+          //   ],
+          // },
+          // {
+          //   type: 'dropdown',
+          //   to: 'participate',
+          //   position: 'left',
+          //   label: 'Web3',
+          //   items: [
+          //     {
+          //       to: 'participate/web3/dns',
+          //       label: 'TON DNS & Domains',
+          //     },
+          //     {
+          //       to: 'participate/web3/how-to-open-any-ton-site',
+          //       label: 'Open TON Sites',
+          //     },
+          //     {
+          //       to: 'develop/dapps/tutorials/how-to-run-ton-site',
+          //       label: 'Run TON Sites',
+          //     },
+          //     {
+          //       to: 'participate/ton-storage/storage-daemon',
+          //       label: 'Run a Storage Daemon',
+          //     },
+          //     {
+          //       to: 'participate/ton-storage/storage-provider',
+          //       label: 'Build a Storage Provider',
+          //     },
+          //   ],
+          // },
           {
             type: 'dropdown',
             label: 'Community',
