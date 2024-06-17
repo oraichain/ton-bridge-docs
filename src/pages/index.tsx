@@ -16,8 +16,8 @@ export default function Home(): JSX.Element {
         className="bootstrap-wrapper"
       >
         <br/>
-        <h1 style={{ fontWeight: '650', textAlign:'center', padding: '0 10px' }}><span>Welcome to the TON <br/> Blockchain documentation </span> <span className='mobile-view'>Welcome to <br/> TON Blockchain <br/> documentation</span></h1>
-        <p style={{ textAlign:'center', fontWeight: '400', fontSize:'18px' }}>Choose your path to start journey</p>
+        <h1 style={{ fontWeight: '650', textAlign:'center', padding: '0 10px' }}><span>Welcome to the <br/> TON Bridge documentation </span> <span className='mobile-view'>Welcome to <br/> TON Blockchain <br/> documentation</span></h1>
+        <p style={{ textAlign:'center', fontWeight: '400', fontSize:'18px' }}>Powered by Oraichain Labs</p>
 
         <div className="container">
 

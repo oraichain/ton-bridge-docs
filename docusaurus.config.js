@@ -222,67 +222,67 @@ const config = {
           srcDark: 'img/ton_logo_dark_background.svg',
         },
         items: [
-          // {
-          //   type: 'dropdown',
-          //   to: '/learn/introduction',
-          //   position: 'left',
-          //   label: 'Concepts',
-          //   items: [
-          //     {
-          //       to: '/learn/introduction',
-          //       label: 'Introduction to TON',
-          //     },
-          //     {
-          //       to: '/learn/overviews/ton-blockchain',
-          //       label: 'Blockchain of Blockchains',
-          //     },
-          //     {
-          //       to: '/learn/overviews/addresses',
-          //       label: 'Smart Contract Addresses',
-          //     },
-          //     {
-          //       to: '/learn/overviews/cells',
-          //       label: 'Cells as a Data Structure',
-          //     },
-          //     {
-          //       to: '/learn/networking/overview',
-          //       label: 'TON Networking',
-          //     },
-          //     {
-          //       to: '/learn/docs',
-          //       label: 'Whitepapers',
-          //     },
+          {
+            type: 'dropdown',
+            to: '/learn/introduction',
+            position: 'left',
+            label: 'Concepts',
+            items: [
+              {
+                to: '/learn/introduction',
+                label: 'Introduction to TON',
+              },
+              {
+                to: '/learn/overviews/ton-blockchain',
+                label: 'Blockchain of Blockchains',
+              },
+              {
+                to: '/learn/overviews/addresses',
+                label: 'Smart Contract Addresses',
+              },
+              {
+                to: '/learn/overviews/cells',
+                label: 'Cells as a Data Structure',
+              },
+              {
+                to: '/learn/networking/overview',
+                label: 'TON Networking',
+              },
+              {
+                to: '/learn/docs',
+                label: 'Whitepapers',
+              },
 
-          //   ],
-          // },
-          // {
-          //   type: 'dropdown',
-          //   to: '/develop/overview',
-          //   position: 'left',
-          //   label: 'Get Started',
-          //   items: [
-          //     {
-          //       to: '/develop/overview',
-          //       label: 'Start with Onboarding Tutorials',
-          //     },
-          //     {
-          //       to: '/develop/dapps/tutorials/jetton-minter',
-          //       label: 'Mint your Tokens',
-          //     },
-          //     {
-          //       to: '/develop/dapps/tutorials/collection-minting',
-          //       label: 'Mint your NFTs',
-          //     },
-          //     {
-          //       to: '/develop/dapps/telegram-apps/',
-          //       label: 'Build your first Mini App',
-          //     },
-          //     {
-          //       to: '/develop/dapps',
-          //       label: 'Dive into DApps Development',
-          //     },
-          //   ],
-          // },
+            ],
+          },
+          {
+            type: 'dropdown',
+            to: '/develop/overview',
+            position: 'left',
+            label: 'Get Started',
+            items: [
+              {
+                to: '/develop/overview',
+                label: 'Start with Onboarding Tutorials',
+              },
+              {
+                to: '/develop/dapps/tutorials/jetton-minter',
+                label: 'Mint your Tokens',
+              },
+              {
+                to: '/develop/dapps/tutorials/collection-minting',
+                label: 'Mint your NFTs',
+              },
+              {
+                to: '/develop/dapps/telegram-apps/',
+                label: 'Build your first Mini App',
+              },
+              {
+                to: '/develop/dapps',
+                label: 'Dive into DApps Development',
+              },
+            ],
+          },
           // {
           //   type: 'dropdown',
           //   to: 'develop/dapps',
