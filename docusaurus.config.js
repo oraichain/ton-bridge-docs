@@ -218,40 +218,40 @@ const config = {
         title: '',
         logo: {
           alt: 'TON',
-          src: 'img/ton_logo_light_background.svg',
-          srcDark: 'img/ton_logo_dark_background.svg',
+          src: 'img/oraichain_symbol-dark.svg',
+          srcDark: 'img/oraichain_symbol-light.svg',
         },
         items: [
           {
             type: 'dropdown',
             to: '/learn/introduction',
             position: 'left',
-            label: 'Concepts',
+            label: 'TON Bridge Concepts',
             items: [
               {
                 to: '/learn/introduction',
                 label: 'Introduction to TON',
               },
-              {
-                to: '/learn/overviews/ton-blockchain',
-                label: 'Blockchain of Blockchains',
-              },
-              {
-                to: '/learn/overviews/addresses',
-                label: 'Smart Contract Addresses',
-              },
-              {
-                to: '/learn/overviews/cells',
-                label: 'Cells as a Data Structure',
-              },
-              {
-                to: '/learn/networking/overview',
-                label: 'TON Networking',
-              },
-              {
-                to: '/learn/docs',
-                label: 'Whitepapers',
-              },
+              // {
+              //   to: '/learn/overviews/ton-blockchain',
+              //   label: 'Blockchain of Blockchains',
+              // },
+              // {
+              //   to: '/learn/overviews/addresses',
+              //   label: 'Smart Contract Addresses',
+              // },
+              // {
+              //   to: '/learn/overviews/cells',
+              //   label: 'Cells as a Data Structure',
+              // },
+              // {
+              //   to: '/learn/networking/overview',
+              //   label: 'TON Networking',
+              // },
+              // {
+              //   to: '/learn/docs',
+              //   label: 'Whitepapers',
+              // },
 
             ],
           },
@@ -265,22 +265,55 @@ const config = {
                 to: '/develop/overview',
                 label: 'Start with Onboarding Tutorials',
               },
+              // {
+              //   to: '/develop/dapps/tutorials/jetton-minter',
+              //   label: 'Mint your Tokens',
+              // },
+              // {
+              //   to: '/develop/dapps/tutorials/collection-minting',
+              //   label: 'Mint your NFTs',
+              // },
+              // {
+              //   to: '/develop/dapps/telegram-apps/',
+              //   label: 'Build your first Mini App',
+              // },
+              // {
+              //   to: '/develop/dapps',
+              //   label: 'Dive into DApps Development',
+              // },
+            ],
+          },
+          {
+            type: 'dropdown',
+            to: '/learn/introduction',
+            position: 'left',
+            label: 'References',
+            items: [
               {
-                to: '/develop/dapps/tutorials/jetton-minter',
-                label: 'Mint your Tokens',
+                to: '/learn/introduction',
+                label: 'Introduction to TON',
               },
-              {
-                to: '/develop/dapps/tutorials/collection-minting',
-                label: 'Mint your NFTs',
-              },
-              {
-                to: '/develop/dapps/telegram-apps/',
-                label: 'Build your first Mini App',
-              },
-              {
-                to: '/develop/dapps',
-                label: 'Dive into DApps Development',
-              },
+              // {
+              //   to: '/learn/overviews/ton-blockchain',
+              //   label: 'Blockchain of Blockchains',
+              // },
+              // {
+              //   to: '/learn/overviews/addresses',
+              //   label: 'Smart Contract Addresses',
+              // },
+              // {
+              //   to: '/learn/overviews/cells',
+              //   label: 'Cells as a Data Structure',
+              // },
+              // {
+              //   to: '/learn/networking/overview',
+              //   label: 'TON Networking',
+              // },
+              // {
+              //   to: '/learn/docs',
+              //   label: 'Whitepapers',
+              // },
+
             ],
           },
           // {
@@ -420,35 +453,35 @@ const config = {
           //     },
           //   ],
           // },
+          // {
+          //   type: 'dropdown',
+          //   label: 'Community',
+          //   position: 'left',
+          //   items: [
+          //     {
+          //       to: 'https://tonresear.ch/',
+          //       label: 'TON Research',
+          //     },
+          //     {
+          //       to: 'https://t.me/addlist/1r5Vcb8eljk5Yzcy',
+          //       label: 'TON Developers Kit',
+          //     },
+          //     {
+          //       to: 'https://t.me/tonsupport_aibot',
+          //       label: 'AI TON Support Agent',
+          //     },
+          //     {
+          //       to: 'https://github.com/ton-blockchain/TEPs',
+          //       label: 'Standards Discussion (TEPs)',
+          //     },
+          //     {
+          //       to: 'contribute',
+          //       label: 'Contribute to Docs',
+          //     },
+          //   ],
+          // },
           {
-            type: 'dropdown',
-            label: 'Community',
-            position: 'left',
-            items: [
-              {
-                to: 'https://tonresear.ch/',
-                label: 'TON Research',
-              },
-              {
-                to: 'https://t.me/addlist/1r5Vcb8eljk5Yzcy',
-                label: 'TON Developers Kit',
-              },
-              {
-                to: 'https://t.me/tonsupport_aibot',
-                label: 'AI TON Support Agent',
-              },
-              {
-                to: 'https://github.com/ton-blockchain/TEPs',
-                label: 'Standards Discussion (TEPs)',
-              },
-              {
-                to: 'contribute',
-                label: 'Contribute to Docs',
-              },
-            ],
-          },
-          {
-            href: 'https://github.com/ton-community/ton-docs',
+            href: 'https://github.com/oraichain/ton-bridge-docs',
             position: 'right',
             className: 'header-github-link',
             'aria-label': 'GitHub repository',
