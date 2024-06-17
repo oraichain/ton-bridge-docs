@@ -1,10 +1,10 @@
 // social networks
-const TON_LINKEDIN_URL = "https://www.linkedin.com/company/ton-blockchain/";
-const TONCOIN_TELEGRAM_URL = "https://t.me/toncoin";
-const GITHUB_URL = "https://github.com/ton-blockchain";
-const TON_TWITTER_URL = "https://twitter.com/ton_blockchain";
-const MAIL_TO_URL = "mailto:partnership@ton.org";
-const COIN_MARKETCAP_URL = "https://coinmarketcap.com/currencies/toncoin/";
+const TON_LINKEDIN_URL = "https://www.linkedin.com/company/oraichain/";
+const TONCOIN_TELEGRAM_URL = "https://t.me/oraichain";
+const GITHUB_URL = "https://github.com/oraichain";
+const TON_TWITTER_URL = "https://twitter.com/oraichain";
+// const MAIL_TO_URL = "mailto:partnership@ton.org";
+const COIN_MARKETCAP_URL = "https://coinmarketcap.com/currencies/oraichain-token/";
 
 export type Network =
   | "telegram"
@@ -24,7 +24,7 @@ export const NETWORKS: Array<INetwork> = [
   { type: "telegram", url: TONCOIN_TELEGRAM_URL },
   { type: "github", url: GITHUB_URL },
   { type: "twitter", url: TON_TWITTER_URL },
-  { type: "mail", url: MAIL_TO_URL },
+  // { type: "mail", url: MAIL_TO_URL },
   { type: "coinmarketcap", url: COIN_MARKETCAP_URL },
 ];
 
@@ -40,7 +40,7 @@ const PAGE_BRAND_ASSETS = "https://ton.org/brand-assets";
 const PAGE_GRANTS = "https://ton.org/grants";
 const PAGE_BUY_TONCOIN = "https://ton.org/buy-toncoin";
 const PAGE_EVENTS = "https://ton.org/events";
-const PAGE_WALLETS = "https://ton.org/wallets";
+const PAGE_WALLETS = "https://docs.orai.io/wallets/owallet";
 const PAGE_DEV = "https://ton.org/dev";
 const PAGE_CONTACT_US = "https://ton.org/contact-us";
 const PAGE_COLLABORATE = "https://ton.org/collaborate";
@@ -79,59 +79,58 @@ export const FOOTER_COLUMN_LINKS_EN = [
     headerLangKey: "Use",
     links: [
       { langKey: "Get a wallet", url: PAGE_WALLETS },
-      { langKey: "Get or sell Toncoin", url: PAGE_BUY_TONCOIN },
       { langKey: "Stake", url: PAGE_STAKE },
-      { langKey: "Apps & Servies", url: FOOTER_APP_AND_DAPPS_URL },
-      { langKey: "Bridge", url: FOOTER_BRIDGE_URL },
-      { langKey: "Domains", url: FOOTER_DNS_URL },
+      // { langKey: "Apps & Servies", url: FOOTER_APP_AND_DAPPS_URL },
+      // { langKey: "Bridge", url: FOOTER_BRIDGE_URL },
+      // { langKey: "Domains", url: FOOTER_DNS_URL },
     ],
   },
   {
     headerLangKey: "Learn",
     links: [
       { langKey: "TON Concept", url: FOOTER_TON_CONCEPT_URL },
-      { langKey: "Roadmap", url: PAGE_ROADMAP },
-      { langKey: "TonStat", url: TONSTAT_URL },
-      { langKey: "History of mining", url: PAGE_MINING },
-      { langKey: "Toncoin", url: PAGE_TON_COIN },
-      { langKey: "Validators", url: PAGE_VALIDATOR },
-      { langKey: "Blockchain comparison", url: PAGE_ANALYSIS },
-      { langKey: "White paper", url: FOOTER_WHITEPAPER_URL },
+      // { langKey: "Roadmap", url: PAGE_ROADMAP },
+      // { langKey: "TonStat", url: TONSTAT_URL },
+      // { langKey: "History of mining", url: PAGE_MINING },
+      // { langKey: "Toncoin", url: PAGE_TON_COIN },
+      // { langKey: "Validators", url: PAGE_VALIDATOR },
+      // { langKey: "Blockchain comparison", url: PAGE_ANALYSIS },
+      // { langKey: "White paper", url: FOOTER_WHITEPAPER_URL },
     ],
   },
   {
     headerLangKey: "Build",
     links: [
       { langKey: "Getting started", url: PAGE_DEV },
-      { langKey: "Documentation", url: FOOTER_DOCUMENTATION_URL },
-      { langKey: "TON Overflow", url: FOOTER_TON_OVERFLOW_URL },
-      { langKey: "Dev Community", url: FOOTER_DEV_COMMUNITY_URL },
-      { langKey: "Grants", url: PAGE_GRANTS },
-      { langKey: "Liquidity Program", url: PAGE_LIQUIDITY_PROGRAM },
-      { langKey: "TON Footsteps", url: FOOTER_TON_FOOTSTEPS_URL },
-      { langKey: "Bug Bounty", url: FOOTER_BUG_BOUNTY_URL },
+      // { langKey: "Documentation", url: FOOTER_DOCUMENTATION_URL },
+      // { langKey: "TON Overflow", url: FOOTER_TON_OVERFLOW_URL },
+      // { langKey: "Dev Community", url: FOOTER_DEV_COMMUNITY_URL },
+      // { langKey: "Grants", url: PAGE_GRANTS },
+      // { langKey: "Liquidity Program", url: PAGE_LIQUIDITY_PROGRAM },
+      // { langKey: "TON Footsteps", url: FOOTER_TON_FOOTSTEPS_URL },
+      // { langKey: "Bug Bounty", url: FOOTER_BUG_BOUNTY_URL },
     ],
   },
-  {
-    headerLangKey: "Community",
-    links: [
-      { langKey: "Communities", url: PAGE_COMMUNITY },
-      { langKey: "TON Foundation", url: TON_FOUNDATION_URL },
-      { langKey: "Events", url: PAGE_EVENTS },
-      { langKey: "Collaborate", url: PAGE_COLLABORATE },
-      { langKey: "Blog", url: TON_BLOG_URL },
-      { langKey: "Press releases", url: FOOTER_PRESS_RELEASES_URL },
-      { langKey: "Careers", url: FOOTER_CAREERS_URL },
-    ],
-  },
-  {
-    headerLangKey: "Other",
-    links: [
-      { langKey: "Support and Feedback", url: FOOTER_SUPPORT_AND_FEEDBACK },
-      { langKey: "Brand assets", url: PAGE_BRAND_ASSETS },
-      { langKey: "Contact us", url: PAGE_CONTACT_US },
-    ],
-  },
+  // {
+  //   headerLangKey: "Community",
+  //   links: [
+  //     { langKey: "Communities", url: PAGE_COMMUNITY },
+  //     { langKey: "TON Foundation", url: TON_FOUNDATION_URL },
+  //     { langKey: "Events", url: PAGE_EVENTS },
+  //     { langKey: "Collaborate", url: PAGE_COLLABORATE },
+  //     { langKey: "Blog", url: TON_BLOG_URL },
+  //     { langKey: "Press releases", url: FOOTER_PRESS_RELEASES_URL },
+  //     { langKey: "Careers", url: FOOTER_CAREERS_URL },
+  //   ],
+  // },
+  // {
+  //   headerLangKey: "Other",
+  //   links: [
+  //     { langKey: "Support and Feedback", url: FOOTER_SUPPORT_AND_FEEDBACK },
+  //     { langKey: "Brand assets", url: PAGE_BRAND_ASSETS },
+  //     { langKey: "Contact us", url: PAGE_CONTACT_US },
+  //   ],
+  // },
 ];
 
 export const FOOTER_COLUMN_LINKS_CN = [
